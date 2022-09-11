@@ -1,0 +1,169 @@
+#news-blocs{
+    top: 5995px;  
+    position: absolute;
+    width: 1380px;
+    height: 753px;
+    left: 0px;
+}
+
+#news-text{
+    
+    position: absolute;
+    width: 947px;
+    height: 58px;
+    left: 270px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+#disc{
+ 
+    box-sizing: border-box;
+
+position: absolute;
+width: 435px;
+height: 435px;
+left: 309px;
+top: 50px;
+
+}
+
+#news-text-vers{
+    
+    position: absolute;
+    width: 435px;
+    height: 29px;
+    left: 309px;
+    top: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+
+#news-text-description{
+    
+    position: absolute;
+    width: 380px;
+    height: 100px;
+    left: 309px;
+    top: 590px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #8D8E8E;
+}
+
+
+#image-product{
+    position: absolute;
+    width: 435px;
+    height: 480px;
+    left: 762px;
+    top: 50px;
+    
+}
+
+#news-text-title-2{
+    
+    position: absolute;
+    width: 435px;
+    height: 29px;
+    left: 780px;
+    top: 600px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+#news-text-description-2{
+    
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 780px;
+    top: 650px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #8D8E8E;
+}
+
+#image-product-div-2{
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 436px;
+    top: -15px;
+    
+}
+
+#news-text-title-3{
+    
+    position: absolute;
+    width: 435px;
+    height: 29px;
+    left: 798px;
+    top: 550px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+        
+        
+        color: #000000;
+}
+
+#news-text-description-3{
+    
+    position: absolute;
+    width: 400px;
+    height: 96px;
+    left: 798px;
+    top: 600px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #8D8E8E;
+}
