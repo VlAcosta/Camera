@@ -1,50 +1,48 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 /*Карточка товара*/
 
 .news-products{
     position: relative;
     width: 1365px;
-    top: 1087px;
     height: 590px;
+    left: 125px;
+    margin: 100px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .section-title{
-    position: absolute;
+    position: relative;
     top: 50px;
-    left: 150px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;;
 }
 
-
-
 .product-card{
     position: relative;
     width: 330px;
     height: 540px;
-    left: 303px;
+    left: -150px;
     margin: 150px 15px;
     background: #FFFFFF;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
+
 #seen-all{
-    
 position: absolute;
 width: 127px;
 height: 19px;
-left: 1512px;
+left: 1212px;
 top: 65px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -54,58 +52,54 @@ color: #89B5FF;
 
 }
 #vector{
-    
-    position: absolute;
-    width: 127px;
-    height: 19px;
-    left: 1562px;
-    top: 65px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-    
-    color: #89B5FF;
+position: absolute;
+width: 127px;
+height: 19px;
+left: 1262px;
+top: 65px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #89B5FF;
     
 }
 
 .product-cards{
-    position: relative;
-   
-    height: 489px;
-    
-
+position: relative;
+height: 489px;
 }
 
 .product-thumb{
-    margin: 0 56px auto 57px ;
- 
+margin: 0 56px auto 57px ;
+
 width: 177px;
 height: 177px;
 left: 379px;
 }
 
 .title-product{
-    position: relative;
-    margin: 40px 21px auto 27px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 29px;
-    width: 277px;
+position: relative;
+margin: 40px 21px auto 27px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: medium;
+font-size: 21px;
+line-height: 29px;
+width: 277px;
 height: 87px;
 
-    color: #000000;
+color: #000000;
 }
 
 .price-product{
     position: relative;
     margin: 10px 26px auto 27px;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -120,7 +114,7 @@ height: 87px;
     margin: 15px 26px auto 27px;
     max-width: 230px;
     word-wrap: break-word;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -158,7 +152,7 @@ left: 20px;
 }
 
 .score-product{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -182,8 +176,8 @@ left: 20px;
 
     background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
     border-radius: 7px;
-top: 1050px;
-    font-family: 'Inter';
+    top: 1050px;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -204,14 +198,14 @@ top: 1050px;
     border: none;
     overflow-x: hidden;
     
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
 }
 
-.button-buy-product .flare, .show-more .flare {
+.button-buy-product .flare, .show-more .flare .but-categorii .button-baner{
     position: absolute;
     top: 0;
     height: 100%;
@@ -219,7 +213,6 @@ top: 1050px;
     transform: skewX(-45deg); 
     animation: flareAnimation;
     left: -150%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
     animation: flareAnimation 3.5s infinite linear; 
 }
 
@@ -252,7 +245,7 @@ top: 1050px;
 #title-cat{
     position: relative;
     padding-bottom: 50px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -271,7 +264,7 @@ top: 1050px;
     border-radius: 16px;
     margin: 25px;
 
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -312,7 +305,7 @@ top: 1050px;
     top: -5%;
     margin: 50px auto auto 50px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -344,7 +337,7 @@ top: 1050px;
     top: -5%;
     margin: 50px auto auto 50px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -379,7 +372,7 @@ top: 1050px;
     top: -5%;
     margin: 50px auto auto 50px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -413,7 +406,7 @@ top: 1050px;
     top: -5%;
     margin: 50px auto auto 50px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -448,7 +441,7 @@ top: 1050px;
     top: -5%;
     margin: 50px auto auto 50px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -480,7 +473,7 @@ top: 1050px;
     top: -5%;
     margin: 50px auto auto 50px;
     color: #000000;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -488,7 +481,7 @@ top: 1050px;
 }
 
 #news-block{
-    position: relative;
+position: relative;
 width: 550px;
 height: 860px;
 margin: 0 auto;
@@ -505,7 +498,7 @@ border-radius: 16px;
     left: 100px;
     top: 73px;
     
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -557,7 +550,7 @@ height: 58px;
 left: 1039px;
 top: 50px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
@@ -575,7 +568,7 @@ height: 364px;
 left: 1039px;
 top: 150px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
@@ -591,7 +584,7 @@ height: 19px;
 left: 1039px;
 top: 500px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -602,7 +595,6 @@ color: #89B5FF;
 #see-all-img{
     position: absolute;
 left: 1150px;
-
 top: 497px;
 
 
@@ -636,7 +628,7 @@ height: 86px;
 left: 80px;
 top: 66px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -680,111 +672,12 @@ top: 213px;
 
 
 
-#baner{
-    
-position: absolute;
-width: 1580px;
-height: 568px;
-left: 150px;
-top: 377px;
 
-background: linear-gradient(258.8deg, rgba(255, 255, 255, 0.1) 0%, rgba(171, 171, 226, 0.4) 100%);
+.catalog{
+top: 1000px;
 }
-#baner-text{
-    
-position: absolute;
-width: 947px;
-height: 154px;
-left: 250px;
-top: 80px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-
-color: #000000;
-}
-#button-baner{
-    position: absolute;
-width: 230px;
-height: 68px;
-left: 253px;
-top: 434px;
-
-background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
-border-radius: 7px;
-}
-#button-baner-text{
-    
-position: absolute;
-width: 187px;
-height: 24px;
-left: 274px;
-top: 456px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
-}
-#camera-img-baner{
-    position: absolute;
-width: 546px;
-height: 410.17px;
-left: 1184px;
-top: 12px;
-}
-#allow-block{
-    position: absolute;
-width: 40px;
-height: 40px;
-left: 1320px;
-top: 502px;
-
-background: #89B5FF;
-border-radius: 7px;
-}
-#allow-block-2{
-    
-position: absolute;
-width: 40px;
-height: 40px;
-left: 1389px;
-top: 502px;
-
-background: #2264D2;
-border-radius: 7px;
-}
-#allow-baner{
-    
-
-   
-position: absolute;
-left: 15.06px;
-
-top: 7.89px;
-bottom: 89.71%;
 
 
-}
-#allow-baner-2{
-    position: absolute;
-    left: 15.06px;
-
-top: 7.89px;
-bottom: 89.71%;
-    
-   
-    transform: rotate(-180deg);
-    }
-    .catalog{
-        top: 1000px;
-    }
 #products{
     
 position: absolute;
@@ -801,7 +694,7 @@ height: 58px;
 left: 275px;
 top: 3128px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
@@ -842,7 +735,7 @@ height: 87px;
 left: 27px;
 top: 237px;;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 21px;
@@ -858,7 +751,7 @@ height: 45px;
 left: 27px;
 top: 334px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -877,7 +770,7 @@ height: 48px;
 left: 27px;
 top: 394px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+.baner{
+    user-select: none;
+    position: relative;
+    width: 1580px;
+    height: 568px;
+    left: 46px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(258.8deg, rgba(255, 255, 255, 0.1) 0%, rgba(171, 171, 226, 0.4) 100%);
+    }
+    
+    #baner-text{
+    position: absolute;
+    width: 847px;
+    height: 154px;
+    margin: 80px 74px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    
+    color: #000000;
+    }
+    
+    #button-baner{
+    position: absolute;
+    width: 230px;
+    height: 68px;
+    margin: 434px 77px;
+    
+    background: linear-gradient(270deg, #3C8DE9 0%, #4745E9 100%);
+    border-radius: 7px;
+    }
+    
+    #button-baner-text{    
+    position: absolute;
+    width: 187px;
+    height: 24px;
+    margin: 22px 30px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    }
+    
+    #camera-img-baner{
+    position: absolute;
+    width: 546px;
+    height: 410.17px;
+    margin: 12px 1008px;
+    }
+    
+    #allow-block{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 502px 0 0 1144px;
+    background-color: #2264D2; 
+    border-radius: 7px;
+    }
+    
+    #allow-block-2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 502px 0 0 1213px;
+    background-color: #2264D2;
+    border-radius: 7px;
+    }
+    
+    /*
+    #allow-block:hover #allow-block-2:hover{
+        background-color: #89B5FF;
+    }*/
+    
+    #allow-baner{ 
+    position: absolute;
+    margin: 4.9px 11.5px;
+    }
+    
+    #allow-baner-2{
+    position: absolute;
+    margin: 4.9px 15px;
+    transform: rotate(-180deg);
+    }
+
+    @media (max-width: 1601px) {
+        .baner{
+            width: 1380px;
+            left: -10px
+        }
+    }
