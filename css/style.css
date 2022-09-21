@@ -165,13 +165,12 @@ background: #FFFFFF;
 border-radius: 7px;
 }
 
-#email-input input{
-position: absolute;
+.sale-block input{
 padding-left: 20px;
 }
 
 #subscride{
-    position: absolute;
+position: absolute;
 width: 230px;
 height: 66px;
 left: 520px;
