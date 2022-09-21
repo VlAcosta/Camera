@@ -2,10 +2,9 @@
 
 #container-footer{
 position: relative;
-width: 100%;
+width: 1920px;
 height: 660px;
-margin: 6800px auto;
-
+margin: 0 auto;
 
 background: #2B2B2B;
 }

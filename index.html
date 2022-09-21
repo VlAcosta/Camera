@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/style-ft.css">
     <link rel="stylesheet" href="css/style-newbl.css">
     <link rel="stylesheet" href="css/style-banner.css">
+    <link rel="stylesheet" href="css/style-news-product.css">
+    <link rel="stylesheet" href="css/style-categories.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -58,11 +60,10 @@
             </div>
         </div>
         <section class="news-products">
-            <div>
-            <span id="seen-all">Смотреть всё</span>
+            <div class="seen-all">
+            <a id="seen-all">Смотреть всё</a>
             <img src="img/vector.svg" alt="" id="vector">
             </div>
-    
                 <span class="section-title">Новинки</span>
                 <div class="product-card">
                     <div class="redirection">
@@ -92,6 +93,9 @@
             <div class="product-cards"></div>
             <div class="product-cards"></div>
             <div class="product-cards"></div>
+            <div class="button-newtovar">
+                <span>Показать ещё</span>
+            </div>
         </section>
         <div class="container-cat">
             <span id="title-cat">Категории</span>
@@ -120,10 +124,8 @@
             </div>
            
         </div>
-      <div id="product-block-index">
+      <div class="product-block-index">
         <section class="news-products-2">
-
-
             <span style="left: 0px;" class="section-title">Товары</span>
             <div style="left: 0px;" id="product-card-2">
                 <div class="redirection">
@@ -142,7 +144,7 @@
                     <div  class="description-product"><span>Гибридная наружная 
                          камера 1080р</span></div>
                 </div>
-                    <div style="  margin: 40px 14px auto 27px;"  class="rating-mini">
+                    <div style="margin: 40px 14px auto 27px;"  class="rating-mini">
                         <span class="active"></span>	
                         <span class="active"></span>    
                         <span class="active"></span>  
@@ -158,45 +160,43 @@
             <div style=" top:-2020px;" class="product-cards-2"></div>
             <div style="left:361px; top:-2658px;" class="product-cards-2"></div>
             <div style="left:720px; top: -3296px;"  class="product-cards-2"></div>
-            <div style="left:1080px; top:-3934px;" class="product-cards-2"></div>
-           
-             
-    <button style="top:-4040px; left: -268px;" class="show-more">
-       Перейти в каталог <span class="flare"></span>
-    </button>
+            <div style="left:1080px; top:-3934px;" class="product-cards-2"></div> 
         </div>
+        <div class="button-catalog">
+            <span>Перейти в каталог</span>
+        </div>
+    </div>
     </section>
-      </div>
-      <button  class="show-more">
-        Показать еще <span class="flare"></span>
-    </button>
-    <div id="news">
+      
+    <div class="news">
         <div id="news-block">
             <span id="About-company">About company</span>
             <img src="img/notebook-news.svg" id="notebook-news" alt="">
             <img src="img/big-news-bool.svg" id="big-news-bool" alt="">
             <img src="img/smol-news-bool.svg" id="smol-news-bool" alt="">
+            <span id="news-title">О нас</span>
+            <span id="news-body">«ITS-PROJECT» предоставляет готовые решения по системам безопасности для оптовых и розничных покупателей, которые включают в себя подбор технических средств безопасности и при необходимости установку и обслуживание этой системы.</span>
         </div>
-        <span id="news-title">О нас</span>
-        <span id="news-body">«ITS-PROJECT» предоставляет готовые решения по системам безопасности для оптовых и розничных покупателей, которые включают в себя подбор технических средств безопасности и при необходимости установку и обслуживание этой системы.</span>
      <div id="see-all">
         <span id="text-see-all">Смотреть все</span>
         <img src="img/vector.svg" id="see-all-img" alt="">
      </div>
      <img src="img/camera-news-img.svg" id="camera-news-img" alt="">
     </div>
-    <div id="sale-block">
+    <div class="sale-block">
         <span id="sale-text">Получайте информацию об акциях и скидках первым</span>
-        <input id="email-input" type="email">
+        <input id="email-input" placeholder="Введите ваш Email"type="email">
         <img src="img/subscride.svg" id="subscride" alt="">
         <img src="img/sale-image-megafon.svg" id="sale-image-megafon" alt="">
     </div>
-    <div id="news-blocs">
+    <div class="news-block">
         <span id="news-text">Новости</span>
-        <img src="img/disc-img.svg" id="disc" alt="">
-        <span id="news-text-vers">Новая версия 3.6 ПО Macroscop</span>
-        <span id="news-text-description"> Компания Macroscop представила версию 3.6 профессионального ПО видеонаблюдения.</span>
-        <div id="image-product-div">
+        <div id="image-product-div-">
+            <img src="img/disc-img.svg" id="disc" alt="">
+            <span id="news-text-vers">Новая версия 3.6 ПО Macroscop</span>
+            <span id="news-text-description"> Компания Macroscop представила версию 3.6 профессионального ПО видеонаблюдения.</span>
+        </div>
+        <div id="image-product-div-1">
             <img src="img/image-product.svg" id="image-product" alt="">
             <span id="news-text-title-2">Новинка от компании Giraffe</span>
             <span id="news-text-description-2">Компания Giraffe сообщила о начале продаж стабилизированного блока питания на четыре канала GF-AP1205DC-4 v2.</span>
@@ -209,7 +209,7 @@
         
     </div>
      <div id="container-footer">
-        <img src="img/logo.svg" alt="" id="footer-logo">
+        <img src="img/logo-white.svg" alt="" id="footer-logo">
         <div id="instagram">
             <img src="img/instagram-icon.svg" alt="" id="instagram-icon">
             <span id="instagram-text">Instagram</span>
