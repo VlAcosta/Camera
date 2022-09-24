@@ -93,9 +93,3 @@
     transform: rotate(-180deg);
     }
 
-    @media (max-width: 1601px) {
-        .baner{
-            width: 1380px;
-            left: -10px
-        }
-    }

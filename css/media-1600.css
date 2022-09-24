@@ -1,0 +1,59 @@
+@media (max-width: 1601px) {
+    .header{
+        width: 1410px;
+        margin: 90px auto;
+    }
+    .but-categorii{
+        position: absolute;
+        width: 350px;
+    }
+    .search input{
+        width: 530px;
+        left: 430px;
+    }
+    #search-btn{
+        left: 930px;
+    }
+    #but-text-cat{
+        font-size: 20px;
+        left: 86px;
+    }
+    .nav-menu-hd{
+        width: 705px;
+        left: 405px;
+        font-size: 22px;
+    }
+    .icons{
+        left: 1208px;
+    }
+    #tel{
+        left: 1165px;
+        font-size: 22px;
+    }
+    #partners-hd, #garant-hd, #delivery-hd, #news-hd{
+        margin-left: 24px;
+        text-decoration: none;
+        color: #000000;
+    }
+    /*Банер*/
+    .baner{
+        width: 1380px;
+    }
+    #camera-img-baner{
+        margin: 12px 801px;
+    }
+    #allow-block{
+        margin: 502px 1054px;
+    }
+    #allow-block-2{
+        margin: 502px 1123px;
+    }
+    /*Новые товары*/
+    .section-title{
+        left: 50px;
+    }
+    .product-card{
+        width: 278px;
+        height: 462px;
+    }
+}
