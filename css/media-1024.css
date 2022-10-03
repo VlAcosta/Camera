@@ -1,8 +1,12 @@
-@media (max-width: 1601px) {
+@media (max-width: 1025px) {
     .header{
-        width: 1410px;
+        width: 860px;
         margin: 90px auto;
         left: 30px;
+    }
+    #logo{
+        width: 196px;
+        height: 32px;
     }
     .but-categorii{
         position: absolute;
